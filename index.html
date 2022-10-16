@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <title>Mini Portfólio</title>
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/imagens/foto perfil.jpg" alt="foto de perfil" />
+        <h1 class="nome">Yasmim Figueiredo</h1>
+        <h2 class="cargo">Desenvolvedora Frontend Júnior</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/imagens/giphy.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/imagens/coraçao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre mim</h3>
+
+            <div class="descricao">
+              <p>Oi! meu nome é Yas, seja bem-vindo(a)!</p>
+
+              <p>
+                Me apaixonei pelo lado da programação há pouco, e desde então,
+                venho me empenhando para aprender tudo o que posso.
+                Decidi colocar essa paixão em prática estudando
+                <span>HTML, CSS e JavaScript</span> de início. 
+                Gosto muito de arte e tecnologia em geral, e meus
+                principais hobbies são desenhar, ver animes e séries.
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.instagram.com/_yas.f7/" target="_blank" class="instagramm">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/yasmim-f-84170621a/" target="_blank" class="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/YasF7" target="_blank" class="github">GitHub</a>
+                </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
